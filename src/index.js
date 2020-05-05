@@ -13,7 +13,7 @@ class ImageSwiper extends Component {
     onSwipeLeft = () => {
         this.setState({
             counter:
-                this.state.counter < data.length - 1
+                this.state.counter < this.props.data.length - 1
                     ? this.state.counter + 1
                     : this.state.counter
         });
