@@ -18,7 +18,8 @@
 
 ### Sample image array of data
 
-```const data = [
+```
+const data = [
    {
      url:
        "https:image.shutterstock.com/image-vector/sale-banner-template-design-260nw-487646614.jpg"
